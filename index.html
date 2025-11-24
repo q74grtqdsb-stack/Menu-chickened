@@ -99,6 +99,24 @@
   </div>
 </div>
 
+<div class="item">
+    <span>بطاطس تسالي</span>
+    <div>
+        <button onclick="decrease('chips')">−</button>
+        <span id="chips">0</span>
+        <button onclick="increase('chips', 11)">+</button>
+    </div>
+</div>
+
+<div class="item">
+    <span>بطاطس تسالي مع دجاج</span>
+    <div>
+        <button onclick="decrease('chipsChicken')">−</button>
+        <span id="chipsChicken">0</span>
+        <button onclick="increase('chipsChicken', 16)">+</button>
+    </div>
+</div>
+  
 <h2>صوص</h2>
 <div class="item">
   <span>رانش صوص - 3 ريال</span>
@@ -178,6 +196,8 @@ let items = {
   bites4: {price: 8, qty: 0},
   loaded: {price: 22, qty: 0},
   fries: {price: 7, qty: 0},
+  chips: { price: 11, qty: 0 },            
+        chipsChicken: { price: 16, qty: 0 },     
   ranch: {price: 3, qty: 0},
   chikind: {price: 3, qty: 0},
   cheese: {price: 5, qty: 0},
